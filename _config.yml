@@ -3,17 +3,8 @@ description:
 theme: minima
 author: Avi
 markdown: kramdown
-minima:
-  social_links: []
-  # this enables the nav menu
-  navigation:
-    - title: "Home"
-      url: "/"
-    - title: "About"
-      url: "/about"
-    - title: "Tags"
-      url: "/tags/"
 
+paginate: 5
 
 plugins:
   - jekyll-feed

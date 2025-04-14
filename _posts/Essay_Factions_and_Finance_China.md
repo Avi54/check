@@ -2,7 +2,7 @@
 layout: post
 title: "Essay"
 date: 2025-04-14
-tags: [introduction, jekyll]
+tags: [China, Political Science]
 ---
 
 The reading builds a model to understand China’s financial outcomes. The focus is on
