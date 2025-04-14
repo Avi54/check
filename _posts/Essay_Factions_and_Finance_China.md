@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Essay"
+title: "Essay on Factions and Finance in China by Shi"
 date: 2025-04-14
 tags: [China, Political Science]
 ---
