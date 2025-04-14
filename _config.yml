@@ -1,0 +1,9 @@
+title: Avi's Blog
+description: My personal blog powered by Jekyll and GitHub Pages.
+theme: minima
+author: Avi
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
