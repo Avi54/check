@@ -1,0 +1,37 @@
+---
+layout: page
+title: Tags
+permalink: /tags/
+---
+
+<h1>Tags</h1>
+
+<ul id="tag-list">
+  {% assign tags = site.tags | sort %}
+  {% for tag in tags %}
+    <li><a href="#{{ tag[0] }}" onclick="filterPosts('{{ tag[0] }}')">{{ tag[0] }} ({{ tag[1].size }})</a></li>
+  {% endfor %}
+</ul>
+
+<div id="posts-by-tag">
+  {% for post in site.posts %}
+    <div class="post-item" data-tags="{{ post.tags | join: ',' }}">
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.excerpt }}</p>
+    </div>
+  {% endfor %}
+</div>
+
+<script>
+function filterPosts(tag) {
+  const posts = document.querySelectorAll('.post-item');
+  posts.forEach(post => {
+    const tags = post.dataset.tags.split(',');
+    if (tags.includes(tag)) {
+      post.style.display = 'block';
+    } else {
+      post.style.display = 'none';
+    }
+  });
+}
+</script>

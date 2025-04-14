@@ -1,8 +1,19 @@
-title: Avi's Blog
-description: My personal blog powered by Jekyll and GitHub Pages.
+title: Avi's Posts
+description: 
 theme: minima
 author: Avi
 markdown: kramdown
+minima:
+  social_links: []
+  # this enables the nav menu
+  navigation:
+    - title: "Home"
+      url: "/"
+    - title: "About"
+      url: "/about"
+    - title: "Tags"
+      url: "/tags/"
+
 
 plugins:
   - jekyll-feed
