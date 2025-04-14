@@ -1,3 +1,3 @@
-# Avi's Jekyll Blog
+# Posts
 
-This is a simple Jekyll blog ready to be published using GitHub Pages.
+This is a simple Jekyll blog.
