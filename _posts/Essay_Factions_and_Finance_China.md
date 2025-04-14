@@ -6,7 +6,7 @@ tags: [China, Political Science]
 ---
 
 The reading builds a model to understand China’s financial outcomes. The focus is on
-interpreting the emergence of inflationary cycles and inefficiency in capital allocation. The
+interpreting the emergence of inflationary cycles and inefficiency in capital allocation. The. ()
 central argument is that factional politics are the key factor influencing economic, financial and
 banking policy outcomes.
 
